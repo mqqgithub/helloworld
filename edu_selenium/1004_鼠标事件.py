@@ -38,3 +38,8 @@ ActionChains(driver).move_to_element(above).perform()
 left = driver.find_element_by_xpath("xxx")
 # 对定位到的元素执行鼠标左键按下的操作
 ActionChains(driver).click_and_hold(left).perform()
+
+
+# driver是WebDriver实例
+# ActionChains(driver) 存储行为对象
+# perform()执行行为操作
