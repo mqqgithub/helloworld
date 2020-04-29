@@ -3,7 +3,7 @@
 # 开发时间：
 # 参数说明;
 
-#键盘事件
+# 键盘事件
 import time
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
